@@ -20,15 +20,13 @@
   in {
     devShells = forEachSupportedSystem ({pkgs}: {
       default = pkgs.mkShell {
-        buildInputs = with pkgs; [
-        ];
-
         packages = with pkgs; [
           uv
           python313Packages.jedi-language-server
           black
           just
           just-lsp
+          tsv2csv
         ];
       };
     });
