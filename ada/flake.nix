@@ -1,5 +1,5 @@
 {
-  description = "A Nix-flake-based Zig development environment";
+  description = "A Nix-flake-based Ada development environment";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
