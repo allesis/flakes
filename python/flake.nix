@@ -26,7 +26,6 @@
           black
           just
           just-lsp
-          tsv2csv
         ];
       };
     });
