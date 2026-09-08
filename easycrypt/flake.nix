@@ -29,10 +29,6 @@
           z3
           alt-ergo-free
         ];
-
-        shellHook = ''
-          easycrypt why3config
-        '';
       };
     });
   };
