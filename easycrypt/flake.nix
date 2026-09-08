@@ -26,6 +26,8 @@
         packages = with pkgs; [
           easycrypt
           easycrypt-runtest
+          z3
+          alt-ergo-free
         ];
 
         shellHook = ''
