@@ -28,6 +28,10 @@
           easycrypt-runtest
           z3
           alt-ergo-free
+          alejandra
+          nil
+          just
+          watchexec
         ];
       };
     });
